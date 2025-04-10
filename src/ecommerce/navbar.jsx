@@ -11,13 +11,13 @@ function Navbar() {
     <header className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-md px-4 sm:px-10 py-4">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
         
-        {/* Logo */}
+      
         <div className="text-3xl sm:text-4xl font-extrabold text-white leading-tight tracking-wide text-center sm:text-left">
           Pre-Order
           <span className="block text-blue-500 -mt-1">Anything</span>
         </div>
 
-        {/* Nav Links */}
+        
         <nav className="flex flex-col sm:flex-row gap-4 sm:gap-10 items-center text-white text-lg font-medium text-center">
           <Link
             to="/"
@@ -33,7 +33,7 @@ function Navbar() {
          
           </Link>
 
-          {/* Cart Icon */}
+       
           <div className="relative">
             <Link to="/cart" className="text-3xl hover:text-blue-400 transition">
               <HiOutlineShoppingCart />
